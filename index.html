@@ -3,71 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mon CV pour développeur web Junior en HTML et CSS">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Mon CV en html</title>
 </head>
 <body>
     <header>
-        <figure>
-            <img src="https://img.freepik.com/vecteurs-premium/profil-avatar-femme-icone-ronde_24640-14042.jpg" alt="une image">
+        <figure><a href="assets/image/profil-avatar-femme-icone-ronde_24640-14042">
+            <img src="https://img.freepik.com/vecteurs-premium/profil-avatar-femme-icone-ronde_24640-14042.jpg" alt="avatar femme"></a>
         </figure>
-         <div class="infos">
+        <div class="infos">
             <h1>Ravat Orlane</h1>
-                <h2>Développeuse Web Junior</h2>
-         </div>
-        <address>
-            <a href="mailto:r.orlane21@yahoo.fr">r.orlane21@yahoo.fr</a>
+            <h2>Développeur web junior</h2>
+        </div>
+        <div class="contact">
+            <div class="adresse">
+                <a href="https://www.google.fr/maps/place/12+Rue+des+Oliviers,+53200+La+Roche-Neuville/@47.8746148,-0.754611,17z/data=!3m1!4b1!4m6!3m5!1s0x4808f12c7939a8a7:0xaefceff0de598651!8m2!3d47.8746112!4d-0.7520307!16s%2Fg%2F11c1fvm555?entry=ttu"
+                   target="_blank">
+                    <p id="adresse">12 Rue des Oliviers</p>
+                    <p>53200 La Roche_Neuville</p>
+                </a>
+            </div>
+            <a href="mailto:jane.doe@gmail.com">jane.doe@gmail.com</a>
             <a href="tel:0606060606">0606060606</a>
-            <a href="16_Rue_Des_Saules_Pleureurs_21231_Dijon">16 Rue Des Saules Pleureurs 21231 Dijon</a>
-        </address>
+        </div>
     </header>
     <main>
-        <section class="about me">
-            <div>
-             <h2>Experiences Professionnelles</h2>
-                 <h3>Hotesse de caisse</h3>
-                      <p>De 01/2018 à 03/2018</p>
-                             <ul>
-                                  <li>Acceuillir les clients</li>
-                                  <li>Gérer l'argent</li>
-                                   <li>Réaprovisionner les caisses en fournitures</li>
-                             </ul>
-             </div>
-             <div>
-                <h3>Aide a la personne "ADMR"</h3>
-                   <p>31/05/2021</p>
-                     <ul>
-                         <li>Faire le ménage</li>
-                         <li>Faire le linge</li>
-                         <li>Aider au déplacement</li>
-                     </ul>
-             </div>
-             <div>
-                 <h3>Employé de commerce en Boucherie</h3>
-                    <p>De 2019 à 2024</p>
-                         <ul>
-                            <li>Mettre les produits en rayon</li>
-                            <li>Effectuer les rotations</li>
-                            <li>Gérer les stocks</li>
-                            <li>Couper et désosser de la viande</li>
-                            <li>Emballer et étiqueter les produits</li>
-                         </ul>
-              </div>
-              <div>
+        <div class="side-bar">
+        <section class="about-me">
                 <h2>A Propos</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-             </div>
-             <div>
-                <h2>Langues Parlées</h2>
+         </section>
+         
+         <section>
+            <h2>Langues Parlées</h2>
                 <ul>
                      <li>Français-Langue Maternelle</li>
                      <li>Anglais-Intermédiaire</li>
                      <li>Espagnol-Débutant</li>
                  </ul>
-             </div>
-             <div>
+         </section>
+         <section>
                  <h2>Centres d'interêt</h2>
                      <ul>
                          <li>Jeux vidéos</li>
@@ -76,28 +54,75 @@
                          <li>Activités Manuelles</li>
                          <li>Sport</li>
                      </ul>
-             </div>
-        </section>
-        <section class="Experiences">
+                    </section>
+           </div>
+        <div class="Experiences">
+            <section>
+                <div class="title">
+                    <div class="insertion"></div>
+                <h2>Experiences Professionnelles</h2>
+            </div>
             <div>
+                    <h3>Hotesse de caisse</h3>
+                         <p>De 01/2018 à 03/2018</p>
+                                <ul>
+                                     <li>Acceuillir les clients</li>
+                                     <li>Gérer l'argent</li>
+                                      <li>Réaprovisionner les caisses en fournitures</li>
+                                </ul>
+                            </div>
+            </section>
+            <section>
+                <div>
+                   <h3>Aide a la personne "ADMR"</h3>
+                
+                      <p>31/05/2021</p>
+                        <ul>
+                            <li>Faire le ménage</li>
+                            <li>Faire le linge</li>
+                            <li>Aider au déplacement</li>
+                        </ul>
+                    </div>
+            </section>
+            <section>
+                <div>
+                    <h3>Employé de commerce en Boucherie</h3>
+                       <p>De 2019 à 2024</p>
+                            <ul>
+                               <li>Mettre les produits en rayon</li>
+                               <li>Effectuer les rotations</li>
+                               <li>Gérer les stocks</li>
+                               <li>Couper et désosser de la viande</li>
+                               <li>Emballer et étiqueter les produits</li>
+                            </ul>
+                        </div>
+            </section>
+            <section>
+                <div class="title">
+                    <div class="insertion"></div>
               <h2>Diplômes/Formations</h2>
+              </div>
+              <div>
                 <h3>Brevet des collèges</h3>
                     <p>De 2012 à 2016</p>
                     <p>Collège isle de Saône</p>
-            </div>
-            <div>
+                </div>
+           <div>
                 <h3>Diplôme Employé de Commerce</h3>
                     <p>Année 2018</p>
                     <p>Formation Afpa</p>
-            </div>
-            <div>
+                </div>
+                <div>
                 <h3>Formation Développeur Web</h3>
                 <p>Année 2024</p>
                 <p>Centre européen de formation</p>
-            </div>
-        </section>
-        <section class="Compétences">
+    </div>
+    </section>
+    <section>
+    <div class="title">
+        <div class="insertion"></div>
             <h2>Compétences</h2>
+            </div>
             <ul>
                 <li>Esprit d'équipe</li>
                 <li>Autonmie</li>
@@ -109,15 +134,16 @@
                 <li>CSS-Intermédiaire</li>
             </ul>
         </section>
+       </div>
     </main>
 <footer>
     <div class="social_media">
-        <a class="logo"href="https://www.flaticon.com/fr/icones-gratuites/github" title="github icônes">Github icônes créées par riajulislam - Flaticon
+        <a class="logo" href="https://www.flaticon.com/fr/icones-gratuites/github" title="logo github ">
             <img src="./image/github.png" alt="logo github">
         </a>
-        <a class="logo"href="https://www.flaticon.com/fr/icones-gratuites/logo-instagram" title="logo instagram icônes">Logo instagram icônes créées par Freepik - Flaticon
+        <a class="logo" href="https://www.flaticon.com/fr/icones-gratuites/logo-instagram" title="logo instagram ">
         <img src="./image/instagram.png" alt="logo instagram"></a>
-        <a class="logo"href="https://www.flaticon.com/fr/icones-gratuites/facebook" >Facebook icônes créées par Pixel perfect - Flaticon
+        <a class="logo" href="https://www.flaticon.com/fr/icones-gratuites/facebook" title="logo facebook ">
             <img src="./image/facebook.png" alt="logo facebook"></a>
     </div>
     <small>Dernière mise à jour le
